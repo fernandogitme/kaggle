@@ -128,7 +128,7 @@ def main():
 
     st.subheader(":dart: **Visualizador de campañas.**")
     st.write("Aquí podrás ver una serie de filtros donde puedes ver las métricas más importantes.\nDespués puedes meter las métricas y ver cómo ha ido.")
-
+    st.write(""" Datos sacados de: https://www.kaggle.com/datasets/loveall/clicks-conversion-tracking/data """)
     tab1, tab2, tab3, tab4 = st.tabs(["Visualizador", "Benchmark", "Modelo", "Recomendador"])
 
     with tab1:
