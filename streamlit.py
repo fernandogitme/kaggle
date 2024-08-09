@@ -129,6 +129,29 @@ def main():
     st.subheader(":dart: **Visualizador de campañas.**")
     st.write("Aquí podrás ver una serie de filtros donde puedes ver las métricas más importantes.\nDespués puedes meter las métricas y ver cómo ha ido.")
     st.write(""" Datos sacados de: https://www.kaggle.com/datasets/loveall/clicks-conversion-tracking/data """)
+    st.write(""" El archivo original contenía 1143 observaciones en 11 variables. A continuación se describen las variables originales:
+
+1.) ad_id: un ID único para cada anuncio.
+
+2.) xyz_campaign_id: un ID asociado con cada campaña publicitaria de la empresa XYZ.
+
+3.) fb_campaign_id: un ID asociado con la forma en que Facebook rastrea cada campaña.
+
+4.) age: edad de la persona a la que se le muestra el anuncio.
+
+5.) gender: género de la persona a la que se le muestra el anuncio.
+
+6.) interest: un código que especifica la categoría a la que pertenece el interés de la persona (los intereses se mencionan en el perfil público de Facebook de la persona).
+
+7.) Impressions: el número de veces que se mostró el anuncio.
+
+8.) Clicks: número de clics en ese anuncio.
+
+9.) Spent: Monto pagado por la empresa XYZ a Facebook para mostrar ese anuncio.
+
+10.) Total conversion: Número total de personas que hicieron una consulta sobre el producto después de ver el anuncio.
+
+11.) Approved conversion: Número total de personas que compraron el producto después de ver el anuncio.""")
     tab1, tab2, tab3, tab4 = st.tabs(["Visualizador", "Benchmark", "Modelo", "Recomendador"])
 
     with tab1:
